@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgb(255, 255, 255);
+  padding: 15px;
+  margin: 0;
+  border-radius: 0px;
+  background-color: #685dc5;
+  color: white;
+}
+
+.header_1 {
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+.main-image {
+  width: 50;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image-img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-6deg) translateY(-4rem) translateX(-1rem);
+}
+.img_Log {
+  width: 30px;
+  height: 30px;
+  padding: 15px 32px;
+  border-radius: 30px;
+  position: absolute;
+  transition: 0.5s ease;
+  top: 1px;
+  right: 70px;
+}
+.img_B {
+  width: 30px;
+  height: 30px;
+  padding: 15px 32px;
+  border-radius: 30px;
+  position: absolute;
+  transition: 0.5s ease;
+  top: 1px;
+  right: 70px;
+}
+.right-col {
+  float: right;
+  width: 50%;
+}
+.left-col {
+  float: left;
+  width: 50%;
+}

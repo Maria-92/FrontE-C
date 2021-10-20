@@ -1,0 +1,26 @@
+.F {
+  font-size: 13px;
+  font-style: normal;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-align: center;
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  border-radius: 0px;
+  background-color: #685dc5;
+  float: center;
+}
+
+.p {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+.p1 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 9px;
+  text-align: center;
+}
